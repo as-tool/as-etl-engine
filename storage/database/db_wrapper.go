@@ -17,8 +17,8 @@ package database
 import (
 	"sync"
 
-	"github.com/as-tool/as-etl-engine/engine/common/config"
-	"github.com/as-tool/as-etl-engine/engine/module/schedule"
+	"github.com/as-tool/as-etl/engine/common/config"
+	"github.com/as-tool/as-etl/engine/module/schedule"
 
 	"github.com/pingcap/errors"
 )

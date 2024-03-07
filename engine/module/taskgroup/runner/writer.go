@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/as-tool/as-etl-engine/engine/core/plugin"
-	"github.com/as-tool/as-etl-engine/engine/core/spi/writer"
+	"github.com/as-tool/as-etl/engine/core/plugin"
+	"github.com/as-tool/as-etl/engine/core/spi/writer"
 )
 
 // Writer: Write Runner

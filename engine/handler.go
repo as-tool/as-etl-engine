@@ -22,7 +22,7 @@ type metricHandler struct {
 	engine *Engine
 }
 
-func newMetricHandler(engine *Engine) *metricHandler {
+func NewMetricHandler(engine *Engine) *metricHandler {
 	return &metricHandler{
 		engine: engine,
 	}

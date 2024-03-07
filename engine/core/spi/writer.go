@@ -14,7 +14,7 @@
 
 package spi
 
-import "github.com/as-tool/as-etl-engine/engine/core/spi/writer"
+import "github.com/as-tool/as-etl/engine/core/spi/writer"
 
 // Writer
 type Writer interface {

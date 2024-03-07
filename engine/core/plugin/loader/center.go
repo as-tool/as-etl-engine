@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/as-tool/as-etl-engine/engine/core/plugin"
-	"github.com/as-tool/as-etl-engine/engine/core/spi"
-	"github.com/as-tool/as-etl-engine/engine/core/spi/reader"
-	"github.com/as-tool/as-etl-engine/engine/core/spi/writer"
+	"github.com/as-tool/as-etl/engine/core/plugin"
+	"github.com/as-tool/as-etl/engine/core/spi"
+	"github.com/as-tool/as-etl/engine/core/spi/reader"
+	"github.com/as-tool/as-etl/engine/core/spi/writer"
 )
 
 var _centor = &centor{

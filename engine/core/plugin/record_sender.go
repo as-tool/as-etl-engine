@@ -15,7 +15,7 @@
 package plugin
 
 import (
-	"github.com/as-tool/as-etl-engine/engine/common/element"
+	"github.com/as-tool/as-etl/engine/common/element"
 )
 
 // RecordSender: Record Sender

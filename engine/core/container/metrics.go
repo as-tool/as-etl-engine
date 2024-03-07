@@ -17,7 +17,7 @@ package container
 import (
 	"sync"
 
-	"github.com/as-tool/as-etl-engine/engine/common/encoding"
+	"github.com/as-tool/as-etl/engine/common/encoding"
 )
 
 // Metrics - Metrics in JSON format

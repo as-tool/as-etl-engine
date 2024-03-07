@@ -4,7 +4,7 @@ import (
 	"database/sql/driver"
 	"fmt"
 
-	"github.com/as-tool/as-etl-engine/engine/common/config"
+	"github.com/as-tool/as-etl/engine/common/config"
 )
 
 // Default Parameters

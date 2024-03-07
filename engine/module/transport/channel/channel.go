@@ -18,9 +18,9 @@ import (
 	"context"
 	"sync"
 
-	coreconst "github.com/as-tool/as-etl-engine/engine/common"
-	"github.com/as-tool/as-etl-engine/engine/common/config"
-	"github.com/as-tool/as-etl-engine/engine/common/element"
+	coreconst "github.com/as-tool/as-etl/engine/common"
+	"github.com/as-tool/as-etl/engine/common/config"
+	"github.com/as-tool/as-etl/engine/common/element"
 
 	"golang.org/x/time/rate"
 )

@@ -3,7 +3,7 @@ package oracle
 import (
 	"encoding/json"
 
-	"github.com/as-tool/as-etl-engine/engine/common/config"
+	"github.com/as-tool/as-etl/engine/common/config"
 
 	"github.com/godror/godror"
 )

@@ -15,7 +15,7 @@
 package taskgroup
 
 import (
-	"github.com/as-tool/as-etl-engine/engine/module/schedule"
+	"github.com/as-tool/as-etl/engine/module/schedule"
 )
 
 // taskManager: Task Manager

@@ -21,9 +21,9 @@ import (
 	"database/sql/driver"
 	"fmt"
 
-	"github.com/as-tool/as-etl-engine/engine/common/element"
+	"github.com/as-tool/as-etl/engine/common/element"
 
-	"github.com/as-tool/as-etl-engine/engine/module/schedule"
+	"github.com/as-tool/as-etl/engine/module/schedule"
 )
 
 // Table Table structure

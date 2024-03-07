@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/as-tool/as-etl-engine/engine/common/element"
+	"github.com/as-tool/as-etl/engine/common/element"
 )
 
 // GoType refers to the type in the Golang language.

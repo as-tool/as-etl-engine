@@ -15,10 +15,10 @@
 package plugin
 
 import (
-	"github.com/as-tool/as-etl-engine/engine/core/container"
-	"github.com/as-tool/as-etl-engine/engine/core/plugin"
+	"github.com/as-tool/as-etl/engine/core/container"
+	"github.com/as-tool/as-etl/engine/core/plugin"
 
-	"github.com/as-tool/as-etl-engine/engine/common/encoding"
+	"github.com/as-tool/as-etl/engine/common/encoding"
 )
 
 // DefaultJobCollector - A default job information collector

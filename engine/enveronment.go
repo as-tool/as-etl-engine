@@ -17,13 +17,13 @@ package engine
 import (
 	"context"
 	"fmt"
-	"io/ioutil"
 	"log/slog"
 	"net/http"
 	"net/http/pprof"
+	"os"
 	"time"
 
-	"github.com/as-tool/as-etl-engine/engine/common/config"
+	"github.com/as-tool/as-etl/engine/common/config"
 
 	"github.com/gorilla/handlers"
 )
@@ -38,10 +38,10 @@ type enveronment struct {
 	addr   string
 }
 
-func newEnveronment(filename string, addr string) (e *enveronment) {
+func NewEnveronment(filename string, addr string) (e *enveronment) {
 	e = &enveronment{}
 	var buf []byte
-	buf, e.err = ioutil.ReadFile(filename)
+	buf, e.err = os.ReadFile(filename)
 	if e.err != nil {
 		return e
 	}
@@ -54,7 +54,7 @@ func newEnveronment(filename string, addr string) (e *enveronment) {
 	return e
 }
 
-func (e *enveronment) build() error {
+func (e *enveronment) Build() error {
 	return e.initEngine().initServer().startEngine().err
 }
 
@@ -74,7 +74,7 @@ func (e *enveronment) initServer() *enveronment {
 	if e.addr != "" {
 		r := http.NewServeMux()
 		recoverHandler := handlers.RecoveryHandler(handlers.PrintRecoveryStack(true))
-		r.Handle("/metrics", newMetricHandler(e.engine))
+		r.Handle("/metrics", NewMetricHandler(e.engine))
 		r.HandleFunc("/debug/pprof/", pprof.Index)
 		r.HandleFunc("/debug/pprof/cmdline", pprof.Cmdline)
 		r.HandleFunc("/debug/pprof/profile", pprof.Profile)
@@ -86,11 +86,11 @@ func (e *enveronment) initServer() *enveronment {
 		}
 		go func() {
 			slog.Debug(fmt.Sprintf("listen begin: %v", e.addr))
-			defer slog.Debug("listen end: %v", e.addr)
+			defer slog.Debug(fmt.Sprintf("listen end: %v", e.addr))
 			if err := e.server.ListenAndServe(); err != nil {
 				slog.Error("ListenAndServe fail. addr: %v err: %v", e.addr, err)
 			}
-			slog.Info("ListenAndServe success. addr: %v", e.addr)
+			slog.Info(fmt.Sprintf("ListenAndServe success. addr: %v", e.addr))
 		}()
 	}
 
@@ -126,7 +126,7 @@ func (e *enveronment) startEngine() *enveronment {
 	return e
 }
 
-func (e *enveronment) close() {
+func (e *enveronment) Close() {
 	if e.server != nil {
 		e.server.Shutdown(e.ctx)
 	}

@@ -17,10 +17,10 @@ package exchange
 import (
 	"errors"
 
-	"github.com/as-tool/as-etl-engine/engine/common/element"
-	"github.com/as-tool/as-etl-engine/engine/module/transport/channel"
+	"github.com/as-tool/as-etl/engine/common/element"
+	"github.com/as-tool/as-etl/engine/module/transport/channel"
 
-	"github.com/as-tool/as-etl-engine/engine/module/transform"
+	"github.com/as-tool/as-etl/engine/module/transform"
 )
 
 // Error Enumeration - An enumeration of possible errors

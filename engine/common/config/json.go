@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/as-tool/as-etl-engine/engine/common/encoding"
+	"github.com/as-tool/as-etl/engine/common/encoding"
 )
 
 type JSON struct {

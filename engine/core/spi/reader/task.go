@@ -17,7 +17,7 @@ package reader
 import (
 	"context"
 
-	"github.com/as-tool/as-etl-engine/engine/core/plugin"
+	"github.com/as-tool/as-etl/engine/core/plugin"
 )
 
 // Task - Represents a task to be performed

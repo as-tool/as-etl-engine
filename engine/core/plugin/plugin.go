@@ -17,7 +17,7 @@ package plugin
 import (
 	"context"
 
-	"github.com/as-tool/as-etl-engine/engine/common/config"
+	"github.com/as-tool/as-etl/engine/common/config"
 )
 
 // Plugin: an extension or add-on component

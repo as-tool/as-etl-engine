@@ -17,7 +17,7 @@ package plugin
 import (
 	"context"
 
-	"github.com/as-tool/as-etl-engine/engine/common/config"
+	"github.com/as-tool/as-etl/engine/common/config"
 )
 
 // Pluggable - A pluggable interface

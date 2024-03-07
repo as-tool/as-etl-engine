@@ -19,8 +19,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/as-tool/as-etl-engine/engine/common/config"
-	"github.com/as-tool/as-etl-engine/engine/common/times"
+	"github.com/as-tool/as-etl/engine/common/config"
+	"github.com/as-tool/as-etl/engine/common/times"
 )
 
 // Config is the basic configuration for database connections, typically used for sql.DB configurations

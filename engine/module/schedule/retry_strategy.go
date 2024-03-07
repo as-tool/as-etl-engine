@@ -20,8 +20,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/as-tool/as-etl-engine/engine/common/config"
-	"github.com/as-tool/as-etl-engine/engine/common/times"
+	"github.com/as-tool/as-etl/engine/common/config"
+	"github.com/as-tool/as-etl/engine/common/times"
 
 	"github.com/pingcap/errors"
 )

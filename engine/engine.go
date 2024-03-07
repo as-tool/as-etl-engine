@@ -17,12 +17,12 @@ package engine
 import (
 	"context"
 
-	"github.com/as-tool/as-etl-engine/engine/common/config"
-	"github.com/as-tool/as-etl-engine/engine/core/container"
+	"github.com/as-tool/as-etl/engine/common/config"
+	"github.com/as-tool/as-etl/engine/core/container"
 
-	coreconst "github.com/as-tool/as-etl-engine/engine/common"
-	"github.com/as-tool/as-etl-engine/engine/module/job"
-	"github.com/as-tool/as-etl-engine/engine/module/taskgroup"
+	coreconst "github.com/as-tool/as-etl/engine/common"
+	"github.com/as-tool/as-etl/engine/module/job"
+	"github.com/as-tool/as-etl/engine/module/taskgroup"
 
 	"github.com/pingcap/errors"
 )

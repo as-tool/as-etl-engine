@@ -23,10 +23,10 @@ import (
 	"sync"
 	"time"
 
-	coreconst "github.com/as-tool/as-etl-engine/engine/common"
-	"github.com/as-tool/as-etl-engine/engine/common/config"
-	"github.com/as-tool/as-etl-engine/engine/core/container"
-	"github.com/as-tool/as-etl-engine/engine/module/schedule"
+	coreconst "github.com/as-tool/as-etl/engine/common"
+	"github.com/as-tool/as-etl/engine/common/config"
+	"github.com/as-tool/as-etl/engine/core/container"
+	"github.com/as-tool/as-etl/engine/module/schedule"
 
 	"github.com/pingcap/errors"
 )

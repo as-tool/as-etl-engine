@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/as-tool/as-etl-engine/engine/common/element"
-	"github.com/as-tool/as-etl-engine/storage/database"
+	"github.com/as-tool/as-etl/engine/common/element"
+	"github.com/as-tool/as-etl/storage/database"
 
 	"github.com/godror/godror"
 	"github.com/shopspring/decimal"

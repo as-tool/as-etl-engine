@@ -14,7 +14,7 @@
 
 package plugin
 
-import "github.com/as-tool/as-etl-engine/engine/common/encoding"
+import "github.com/as-tool/as-etl/engine/common/encoding"
 
 // JobCollector: a work information collector used to collect the progress, error messages, and other information of the entire job.
 //toto: The monitoring module is currently not implemented, so the structure of this interface needs to be implemented later.

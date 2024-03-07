@@ -11,19 +11,19 @@ import (
 	"sync"
 	"time"
 
-	coreconst "github.com/as-tool/as-etl-engine/engine/common"
-	"github.com/as-tool/as-etl-engine/engine/common/config"
-	"github.com/as-tool/as-etl-engine/engine/core/plugin"
-	"github.com/as-tool/as-etl-engine/engine/core/plugin/loader"
-	"github.com/as-tool/as-etl-engine/engine/core/spi/reader"
-	"github.com/as-tool/as-etl-engine/engine/core/spi/writer"
-	"github.com/as-tool/as-etl-engine/engine/module/schedule"
+	coreconst "github.com/as-tool/as-etl/engine/common"
+	"github.com/as-tool/as-etl/engine/common/config"
+	"github.com/as-tool/as-etl/engine/core/plugin"
+	"github.com/as-tool/as-etl/engine/core/plugin/loader"
+	"github.com/as-tool/as-etl/engine/core/spi/reader"
+	"github.com/as-tool/as-etl/engine/core/spi/writer"
+	"github.com/as-tool/as-etl/engine/module/schedule"
 
-	"github.com/as-tool/as-etl-engine/engine/common/util"
+	"github.com/as-tool/as-etl/engine/common/util"
 
-	"github.com/as-tool/as-etl-engine/engine/core/container"
-	statplugin "github.com/as-tool/as-etl-engine/engine/module/statistics/plugin"
-	"github.com/as-tool/as-etl-engine/engine/module/taskgroup"
+	"github.com/as-tool/as-etl/engine/core/container"
+	statplugin "github.com/as-tool/as-etl/engine/module/statistics/plugin"
+	"github.com/as-tool/as-etl/engine/module/taskgroup"
 
 	"github.com/pingcap/errors"
 )

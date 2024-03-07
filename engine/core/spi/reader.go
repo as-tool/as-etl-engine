@@ -14,7 +14,7 @@
 
 package spi
 
-import "github.com/as-tool/as-etl-engine/engine/core/spi/reader"
+import "github.com/as-tool/as-etl/engine/core/spi/reader"
 
 // Reader - A component that reads data
 type Reader interface {

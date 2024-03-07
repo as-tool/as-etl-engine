@@ -17,8 +17,8 @@ package writer
 import (
 	"context"
 
-	"github.com/as-tool/as-etl-engine/engine/common/config"
-	"github.com/as-tool/as-etl-engine/engine/core/plugin"
+	"github.com/as-tool/as-etl/engine/common/config"
+	"github.com/as-tool/as-etl/engine/core/plugin"
 )
 
 // Job work

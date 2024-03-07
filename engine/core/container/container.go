@@ -15,7 +15,7 @@
 package container
 
 import (
-	"github.com/as-tool/as-etl-engine/engine/common/config"
+	"github.com/as-tool/as-etl/engine/common/config"
 )
 
 // Container - A component that holds or encapsulates other components

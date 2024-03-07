@@ -17,7 +17,7 @@ package runner
 import (
 	"context"
 
-	"github.com/as-tool/as-etl-engine/engine/core/plugin"
+	"github.com/as-tool/as-etl/engine/core/plugin"
 )
 
 // Runner - A component responsible for executing tasks or jobs

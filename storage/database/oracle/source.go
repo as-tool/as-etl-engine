@@ -1,7 +1,7 @@
 package oracle
 
 import (
-	database "github.com/as-tool/as-etl-engine/storage/database"
+	database "github.com/as-tool/as-etl/storage/database"
 
 	"github.com/godror/godror"
 )

@@ -14,7 +14,7 @@
 
 package plugin
 
-import "github.com/as-tool/as-etl-engine/engine/common/element"
+import "github.com/as-tool/as-etl/engine/common/element"
 
 // TaskCollector: a component or system that collects task information
 // todo: currently not in use
